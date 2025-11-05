@@ -10,7 +10,7 @@ COPY . .
 # ✅ Give execute permission to mvnw
 RUN chmod +x mvnw
 
-# Build the app
+# Build the app 
 RUN ./mvnw -B clean package -DskipTests
 
 # Expose port 8080
